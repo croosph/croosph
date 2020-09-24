@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>CroosPH</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" href="css/trabajo.css">
+	<link rel="stylesheet" href="css/galeria.css">
+	<!---photoswipe-->
+	<link rel="stylesheet" href="dist/photoswipe.css">
+	<link rel="stylesheet" href="dist/default-skin/default-skin.css">
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="dist/photoswipe.min.js"></script>
+	<script src="dist/photoswipe-ui-default.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<section>
+		<div class="header">
+			<h2 class="logo"><a href="index.html" style="text-decoration: none;">CroosPH</a></h2>
+			<i class="fa fa-bars x2" onclick="menuToggle()"></i>
+			<ul id="navigation">
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+				<li>
+					<a href="trabajos.html" class="active">Trabajos</a>
+				</li>
+				<li>
+					<a href="acerca.html">Acerca de mi</a>
+				</li>
+				<i class="fa fa-bars x2" onclick="menuToggle()"></i>
+			</ul>
+		</div>
+	</section>
+	<section id="trabajos">
+		<div class="categorias-trabajos">
+			<h5>Categorias</h5>
+			<div class="lista-categorias">
+				<a href="#" class="categoria_item categoria-activa" category="book">Books</a>
+				<a href="#" class="categoria_item" category="egresados">Egresados</a>
+				<a href="#" class="categoria_item" category="studio">Estudio</a>
+				<a href="#" class="categoria_item" category="xv">Fiestas</a>
+				<a href="#" class="categoria_item" category="street">Aire Libre</a>
+			</div>
+		</div>
+
+		<section class="fotos-lista my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+			<!--galeria de book-->
+			<div class="foto-item" category="book">
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/1.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/1.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/5.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/5.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+
+				</figure>
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/7.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/7.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+
+				</figure>
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/9.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/9.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/12.jpg" itemprop="contentUrl" data-size="1080x1080">
+						<div class="trabajo-img">
+							<img src="img/12.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/16.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/16.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+
+				</figure>
+			</div>
+
+			<!--galeria de xv-->
+
+			<div class="foto-item" category="xv">
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/1.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/1.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/8.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/8.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/11.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/11.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+			</div>
+
+			<!--galeria de street-->
+
+
+			<div class="foto-item" category="street">
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/2.jpg" itemprop="contentUrl" data-size="640x640">
+						<div class="trabajo-img">
+							<img src="img/2.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/14.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/14.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/15.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/15.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/4.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/4.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/10.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/10.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/17.jpg" itemprop="contentUrl" data-size="1080x1080">
+						<div class="trabajo-img">
+							<img src="img/17.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+			</div>
+
+			<!--galeria de estudio-->
+
+			<div class="foto-item" category="studio">
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/20.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/20.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/18.jpg" itemprop="contentUrl" data-size="960x640">
+						<div class="trabajo-img">
+							<img src="img/18.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/19.jpg" itemprop="contentUrl" data-size="640x960">
+						<div class="trabajo-img">
+							<img src="img/19.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/25.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/25.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/26.jpg" itemprop="contentUrl" data-size="1080x720">
+						<div class="trabajo-img">
+							<img src="img/26.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+				<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="img/27.jpg" itemprop="contentUrl" data-size="1080x1350">
+						<div class="trabajo-img">
+							<img src="img/27.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+								alt="Image description" />
+						</div>
+					</a>
+				</figure>
+			</div>
+
+			 
+
+				<!--galeria de egresados-->
+
+				<div class="foto-item" category="egresados">
+					<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						<a href="img/21.jpg" itemprop="contentUrl" data-size="1066x1332">
+							<div class="trabajo-img">
+								<img src="img/21.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+									alt="Image description" />
+							</div>
+						</a>
+					</figure>
+					<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						<a href="img/23.jpg" itemprop="contentUrl" data-size="1080x720">
+							<div class="trabajo-img">
+								<img src="img/23.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+									alt="Image description" />
+							</div>
+						</a>
+					</figure>
+					<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						<a href="img/24.jpg" itemprop="contentUrl" data-size="1080x1350">
+							<div class="trabajo-img">
+								<img src="img/24.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+									alt="Image description" />
+							</div>
+						</a>
+					</figure>
+					<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						<a href="img/29.jpg" itemprop="contentUrl" data-size="1080x720">
+							<div class="trabajo-img">
+								<img src="img/29.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+									alt="Image description" />
+							</div>
+						</a>
+					</figure>
+					
+					<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						<a href="img/82.jpg" itemprop="contentUrl" data-size="983x1229">
+							<div class="trabajo-img">
+								<img src="img/82.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+									alt="Image description" />
+							</div>
+						</a>
+					</figure>
+
+					<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+						<a href="img/30.jpg" itemprop="contentUrl" data-size="1080x720">
+							<div class="trabajo-img">
+								<img src="img/30.jpg" class="trabajo-img img-top" itemprop="thumbnail"
+									alt="Image description" />
+							</div>
+						</a>
+					</figure>
+				</div>
+		</section>		
+	</section>
+	
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+		<!-- Background of PhotoSwipe. 
+			   It's a separate element, as animating opacity is faster than rgba(). -->
+		<div class="pswp__bg"></div>
+
+		<!-- Slides wrapper with overflow:hidden. -->
+		<div class="pswp__scroll-wrap">
+
+			<!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+			<!-- don't modify these 3 pswp__item elements, data is added later on. -->
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+
+			<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+			<div class="pswp__ui pswp__ui--hidden">
+
+				<div class="pswp__top-bar">
+
+					<!--  Controls are self-explanatory. Order can be changed. -->
+
+					<div class="pswp__counter"></div>
+
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+					<!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+					<!-- element will get class pswp__preloader--active when preloader is running -->
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	<script src="js/script.js"></script>
+	<script src="js/galeria-script.js"></script>
+	<script src="js/listado.js"></script>
+	
+</body>
+
+</html>

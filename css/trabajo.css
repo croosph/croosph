@@ -1,0 +1,49 @@
+#trabajos{
+    padding:0px 10%;
+    margin-top:100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categorias-trabajos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18%;
+
+}
+.categorias-trabajos h5{
+    text-align: left;
+    font-size: 1.4em;
+}
+.lista-categorias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista-categorias a{
+    text-decoration:none;
+    color: black;
+    font-size: 2em;
+    margin:10px 0;
+}
+.fotos-lista{
+    width: 82%;
+	display: grid;
+   grid-template-columns:repeat(3,1fr);  
+    grid-gap: 10px;
+    grid-auto-rows: 150px;  
+}
+
+.foto-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-top{object-position: top;}
+.img-left{object-position: left;}
+.img-right{object-position: right;}
+.img-bot{object-position: bottom;}
+.largo-bot{object-position: 0em -7em;}
+figure:last-child{
+    padding-bottom: 30px;
+}
