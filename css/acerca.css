@@ -11,6 +11,9 @@
         .redes-icon a{font-size: 1.7rem;
         color:#764dbe;
         }
+        .logo a{
+            color: #764dbe !important;
+        }
         .color{
             font-size: 1.7rem;
             color: #764dbe;

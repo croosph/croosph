@@ -4,6 +4,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.logo a{
+    color: #764dbe !important;
+}
 .categorias-trabajos{
     display: flex;
     flex-direction: column;
